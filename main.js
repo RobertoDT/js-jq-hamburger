@@ -1,6 +1,6 @@
 //seleziono l'oggetto da modificare
-var hamburger = $(".fa-bars");
-var croce = $(".fa-times");
+var hamburger = $(".header-right > a");
+var croce = $(".hamburger-menu > .close");
 
 //aggiungo l'evento del click
 hamburger.click(
