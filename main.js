@@ -5,12 +5,12 @@ var croce = $(".fa-times");
 //aggiungo l'evento del click
 hamburger.click(
   function(){
-    $(".hamburger-menu").addClass("active");
+    $(".hamburger-menu").fadeIn(400).addClass("active");
   }
 );
 
 croce.click(
   function(){
-    $(".hamburger-menu").removeClass("active");
+    $(".hamburger-menu").fadeOut(400).removeClass("active");
   }
 );
